@@ -1,49 +1,25 @@
 /* Write your CSS here */
 .list-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 120px;
+  height: 120px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding-top: 16px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 10px;
+  margin: 5px;
   list-style-type: none;
-  background-color: #ffffff;
-  border-radius: 12px;
-  width: 45%;
-  max-width: 128px;
-}
-
-@media screen and (min-width: 768px) {
-  .list-container {
-    max-width: 128px;
-    padding-top: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-  }
 }
 
 .app-image {
-  height: 70px;
-  width: 70px;
-}
-
-@media screen and (min-width: 768px) {
-  .app-image {
-    width: 102px;
-    height: 102px;
-  }
+  width: 55px;
+  margin-top: 15px;
 }
 
 .app-name {
   font-family: 'Bree Serif';
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 600;
   color: #1e293b;
-}
-
-@media screen and (min-width: 768px) {
-  .app-name {
-    font-size: 24px;
-  }
 }
